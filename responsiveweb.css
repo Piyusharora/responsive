@@ -24,9 +24,29 @@ nav li{padding-right: 20px;}
 
 .nav2{
     list-style-type: none;
-   word-spacing: 10px;  
+   word-spacing: 10px;
+    
+   
+  
+  
 }
 
+
+/*
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: auto;
+    margin-right: auto;
+    max-width: 1525px;
+}
+.container3{
+    position: absolute;
+    width:600px;
+    padding-top: 0px;
+    padding-left:600px;
+    padding-bottom: 300px;
+}*/
 
 .container{
     position: relative;
@@ -344,7 +364,7 @@ p{
   }
  }
 
- @media (min-width: 768px) and (max-width: 1024px){
+ @media only screen and (min-width: 768px) and (max-width: 1024px){
     .banner { 
         
         width:1080px;
